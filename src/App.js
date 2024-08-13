@@ -13,7 +13,7 @@ export default function Tabs() {
           <button
             key={tab}
             onClick={() => {
-              currentTab = tab
+              setCurrentTab(tab)
             }}
             className={`${
               tab === currentTab
